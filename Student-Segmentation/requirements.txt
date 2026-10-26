@@ -5,11 +5,3 @@ scikit-learn
 matplotlib
 seaborn
 plotly
-EOFcat > requirements.txt <<'EOF'
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-plotly
