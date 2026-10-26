@@ -1,33 +1,85 @@
-# Student Segmentation Using K-Means
+# 🎓 Student Segmentation Using K-Means
 
-## Project Overview
-A machine learning project that groups students based on academic behavior using K-Means clustering.
+🚀 **Live Demo:** [Open Student Segmentation AI App](https://saigoudjulakanti-student-segment-student-segmentationapp-g7bdts.streamlit.app/)
 
-## Technologies
+💻 **GitHub Repository:** [View Source Code](https://github.com/SaiGoudJulakanti/Student-Segmentation)
+
+## 📌 Project Overview
+
+Student Segmentation is a machine learning project that groups students according to their academic behavior using the **K-Means clustering algorithm**. The interactive Streamlit application helps explore different student groups using academic performance and study habits.
+
+## ✨ Features
+
+- 📊 Student segmentation using K-Means clustering
+- 📈 Interactive charts and data visualizations
+- 🎯 Analysis of attendance percentage
+- 📚 Study hours and assignment completion analysis
+- 📝 Exam score analysis
+- 👤 Individual student analysis
+- 🌐 Interactive web application built with Streamlit
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
 - Streamlit
+- Seaborn
+- Plotly
 
-## Dataset
-This project uses synthetic student data, not real student records.
+## 📂 Dataset
 
-Features include attendance, study hours, assignment completion, and exam scores.
+This project uses **synthetic student data**, not real student records. The dataset simulates academic features such as:
 
-## Run Locally
+- Attendance percentage
+- Daily study hours
+- Assignment completion percentage
+- Examination scores
 
-1. Create a virtual environment.
-2. Install dependencies.
-3. Run the application.
+The synthetic dataset is intended for educational and demonstration purposes.
 
-Commands:
+## ⚙️ Installation and Setup
 
-    python3 -m venv .venv
-    source .venv/bin/activate
-    pip install -r requirements.txt
-    python3 -m streamlit run app.py
+1. Clone the repository:
 
-## Author
-Sai Goud Julakanti
+   ```bash
+   git clone https://github.com/SaiGoudJulakanti/Student-Segmentation.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Student-Segmentation/Student-Segmentation
+   ```
+
+3. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the Streamlit application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## 🧠 Algorithm
+
+**K-Means Clustering** is an unsupervised machine learning algorithm that partitions data into clusters based on feature similarity. In this project, it is used to group students with similar academic behavior.
+
+## 🎯 Project Objective
+
+To demonstrate how unsupervised machine learning can identify patterns in simulated academic data and provide an interactive way to explore student groups.
+
+## 👨‍💻 Author
+
+**Sai Goud Julakanti**
+
+Computer Science and Engineering Student
+
+---
+
+⭐ If you find this project useful, consider starring the repository.
